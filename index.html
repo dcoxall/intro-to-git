@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Introduction to CSS</title>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="node_modules/shower-ribbon/styles/screen-16x10.css">
+</head>
+<body class="shower list">
+
+    <header class="caption">
+        <h1>Beggining Git</h1>
+        <p>Marks &amp; Spencer</p>
+    </header>
+
+    <section class="slide">
+        <h2>Let's learn Git</h2>
+        <p>Brought to you by <a href="http://www.darrencoxall.com">Darren Coxall</a></p>
+    </section>
+
+    <section class="slide">
+        <h2>Early notes</h2>
+        <ul>
+            <li>Git is a means of tracking changes to your work</li>
+            <li>GitHub is a place to store those changes away from your machine</li>
+            <li>
+                Tracking changes is fantastic to help you...
+                <ul>
+                    <li>Undo mistakes</li>
+                    <li>Keep multiple versions of your work</li>
+                    <li>Remind you of the things you have done</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section class="slide">
+        <h2>Git Terminology</h2>
+        <p>
+            There are a lot of concepts and taxonomies in git. It helps to get
+            a basic understanding to better grasp how things fit together.
+        </p>
+    </section>
+
+    <section class="slide">
+        <style>
+            #git-tree {
+                position: absolute;
+                bottom: 50px;
+                right: 30px;
+                width: 40%;
+            }
+        </style>
+        <h2>Commits, Branches, Master</h2>
+        <ul>
+            <li>A commit is a single packaged change</li>
+            <li>A branch is a collection of changes separated</li>
+            <li>Master usualy refers to the main branch</li>
+        </ul>
+        <img id="git-tree" src="images/git-tree.png" />
+    </section>
+
+    <section class="slide">
+        <h2>Merging</h2>
+        <ul>
+            <li>A merge is when 2 branches are brought together</li>
+            <li>A merge usually generates a new commit</li>
+        </ul>
+    </section>
+
+    <section class="slide">
+        <h2>Remotes</h2>
+        <ul>
+            <li>A remote is an external location for git (like GitHub)</li>
+        </ul>
+    </section>
+
+    <section class="slide">
+        <h2>Pushing</h2>
+        <ul>
+            <li>A push is when you publish your changes to a remote</li>
+        </ul>
+    </section>
+
+    <section class="slide">
+        <h2>Pulling</h2>
+        <ul>
+            <li>A pull is when you retrieve changes from a remote to your machine</li>
+            <li>Think of it as checking for updates</li>
+        </ul>
+    </section>
+
+    <section class="slide">
+        <h2 class="shout">Time to try it ourselves</h2>
+    </section>
+
+    <section class="slide">
+        <ul>
+            <li>https://try.github.io</li>
+            <li>http://pcottle.github.io/learnGitBranching/</li>
+            <li>https://www.codecademy.com/en/courses/learn-git/</li>
+        </ul>
+    </section>
+  <!--
+    To hide progress bar from entire presentation
+    just remove “progress” element.
+    -->
+  <div class="progress"></div>
+  <script src="node_modules/shower-core/shower.min.js"></script>
+  <!-- Copyright © 2015 Yours Truly, Famous Inc. -->
+  <!-- Photos by John Carey, fiftyfootshadows.net -->
+</body>
+</html>
